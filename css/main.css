@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
 *,
 *::after,
 *::after {
@@ -22,6 +25,18 @@ body {
   justify-items: center;
   align-items: center;
   grid-template-columns: repeat(3, auto);
+}
+h1{
+  position: absolute;
+  top: 0;
+  margin: 0;
+  width: 100vw;
+  text-align: center;
+  color: White;
+  font-size: 3rem;
+  font-family: "Russo One";
+  animation: sway 2s linear infinite alternate; 
+  
 }
 
 
