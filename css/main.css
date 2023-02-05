@@ -17,6 +17,7 @@ body {
   overflow: hidden;
 }
 .board {
+  overflow:hidden;
   background-color: #0C0032;
   width: 100vw;
   height: 100vh;
